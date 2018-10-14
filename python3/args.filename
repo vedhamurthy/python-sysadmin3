@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Online Cloud, Linux, DevOps & Certification Training | Linux Academy</title>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Linux Academy provides the most in-depth training and certification courses for Linux, AWS, Azure, Google, OpenStack, DevOps, Big Data, and Containers.">
+    
+    <!-- Modernizer
+    <script src="//assets.linuxacademy.com/templates/default/assets/js/modernizr-custom.js"></script>
+    -->
+    <!-- Stylesheets -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"> -->
+
+    <!-- <link rel="stylesheet" href="//assets.linuxacademy.com/templates/default/assets/css/bootstrap-multiselect.css"/> -->
+    <!-- <link rel="stylesheet" href="//assets.linuxacademy.com/templates/default/assets/css/style.css" /> -->
+    <link href="/lib/cache/ec873c5fbb92e012712dd16d4438fb01_da675d7bda62b7f68062ebe1e20f4c1d_7132c63328c1aec866488d807afd91aa_5a7fa679c5aa33c13eca56c1584d2914_.css?ver=1537796874" rel="stylesheet" media="screen"  />
+
+    <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"> -->
+
+    <link href="/lib/cache/55f3814dbf9b305e2683b079482524f8_420a830f4ec00a3ecc302e56b1db7ee7_.css?ver=1537796874" rel="stylesheet" media="screen"  />    <!-- <link rel="stylesheet" href="//assets.linuxacademy.com/templates/default/assets/css/nova.css" /> -->
+
+    <!-- Google Tag Manager -->
+    <script>
+        var dataLayer = [];
+
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KB4N7S3');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- WalkMe Integration -->
+    <script type="text/javascript">
+            (function() {var walkme = document.createElement('script');
+        walkme.type = 'text/javascript'; walkme.async = true; walkme.src = 'https://cdn.walkme.com/users/70c5e13ae17d404abc5dbf81d27b21e3/walkme_70c5e13ae17d404abc5dbf81d27b21e3_https.js'; var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(walkme, s); window._walkmeConfig = {smartLoad:true}; })();
+        </script>
+    <!-- /WalkMe Integration -->
+
+
+    <!-- Typekit -->
+    <script type="text/javascript" src="//use.typekit.net/gcz7etl.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- Teams Page Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.2.0/nouislider.min.css" integrity="sha256-ppzFVggmnh0AJD5hxvYFeTnhZ8e6ow4Xc9gzx1QsutI=" crossorigin="anonymous" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=kPPG6MlAKz">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=kPPG6MlAKz">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png?v=kPPG6MlAKz">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?v=kPPG6MlAKz">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png?v=kPPG6MlAKz">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png?v=kPPG6MlAKz">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png?v=kPPG6MlAKz">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png?v=kPPG6MlAKz">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=kPPG6MlAKz">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=kPPG6MlAKz" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-194x194.png?v=kPPG6MlAKz" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png?v=kPPG6MlAKz" sizes="96x96">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=kPPG6MlAKz" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=kPPG6MlAKz" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=kPPG6MlAKz">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=kPPG6MlAKz" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon.ico?v=kPPG6MlAKz">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=kPPG6MlAKz">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- jQuery -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+    <script src="/lib/cache/dc24c5f64d1f274a9cf0c51f34001b52_d79168bceb42084acc0c35e28363ef35_d79168bceb42084acc0c35e28363ef35_1e7acc518c7bf96420b71bbe3d5ad626_11727f40038d7bcd236acb607d55967d_.js?ver=1537796874"></script>    <script src="/lib/cache/3fa064f2b2ae610ab0c2bba3163db68d.js?ver=1537796874"></script><script src="/lib/cache/fdabc1afb4967e0f4ac2930b9f5f7397.js?ver=1509986819"></script><script src="/lib/cache/c5ae525693d8466b06039cc7f8849bb5.js?ver=1509550690"></script><script>
+
+var ssoConfig = {"domain":"lacausers.auth0.com","clientID":"KaWxNn1C2Gc7n83W9OFeXltd8Utb5vvx","redirectUri":"https:\/\/linuxacademy.com","audience":"https:\/\/linuxacademy.com","responseType":"token id_token","scope":"openid email user_impersonation profile","logoutURL":"https:\/\/linuxacademy.com"};
+var webAuth = new auth0.WebAuth(ssoConfig);
+</script>
+
+
+    <!-- <script>window.jQuery || document.write('<script src="//assets.linuxacademy.com/templates/default/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script type="text/javascript" src="//assets.linuxacademy.com/templates/default/assets/js/jquery-bootstrap-modal-steps.min.js"></script> -->
+    <!-- Start Visual Website Optimizer Asynchronous Code -->
+    <script type='text/javascript'>
+    var _vwo_code=(function(){
+    var account_id=253511,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=false,
+    // DO NOT EDIT BELOW THIS LINE
+    f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+    </script>
+    <!-- End Visual Website Optimizer Asynchronous Code -->
+     <meta property="fb:app_id" content="206503206456303">
+
+    <!-- CrazyEgg tracking code -->
+    <script type="text/javascript">
+    setTimeout(function(){var a=document.createElement("script");
+    var b=document.getElementsByTagName("script")[0];
+    a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0012/5940.js?"+Math.floor(new Date().getTime()/3600000);
+    a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+    </script>
+    <!-- End CrazyEgg tracking code -->
+
+     
+    
+
+    <script type="text/javascript">
+   window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+     heap.load("1693338227");
+</script>
+
+<!-- Orion Papers -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,400i,500,600,700" rel="stylesheet">
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB4N7S3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+    <!-- External banner -->
+
+<div class="april-announcement-banner">
+    <a href="//linuxacademy.com/blog/linuxacademy-com/new-hands-on-training-content-150-recap/?utm_source=sitebanner&utm_medium=homepage&utm_campaign=July2018CourseLaunch" target="_blank">
+        <div class="container">
+            <img src="/templates/default/assets/img/Confetti_Floating_Course_Cards.png" alt="July Release Confetti">
+            <div class="row">
+                <div class="col-xs-12 col-lg-8 col-lg-offset-4 text-right">
+                    <span class="april-announcement-banner--number">150+</span>
+                    <span class="april-announcement-banner--tagline">New Courses, Hands&#8209;On Labs, And <br>Interactive Learning Activities</span>
+                    <span class="april-announcement-banner--cta">Learn More</span>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+					<div class="header inverse header-home" id="promo">
+						<hr class="color-bands">
+				<div class="container">
+
+				<!-- Prmary Site Navigation Row --> 
+<div class="row row-nav">
+    <!-- Logo -->
+	<div class="col-md-3 col-xs-6">
+		<a href="/" class="logo"><img src="/templates/default/assets/img/LinuxAcademy-logo-white.svg" alt="Linux Academy Logo" width="214px" height="35px"></a>
+	</div>
+    <!-- Nav options -->
+	<div class="col-md-9 col-xs-6 text-right">
+		<!-- Mobile menu toggle button -->
+		<button class="btn btn-la hidden-lg hidden-md" data-toggle="collapse" data-target="#nav-la-public"><i class="fa fa-bars"></i></button>
+		
+		<ul id="nav-la-public" class="list-unstyled nav-la-public collapse">
+						<li class=" external-courses-li">
+				<a href="/courses" class="nav-item nav-item-courses" onclick="return false;">Courses</a>
+			</li>
+			<li >
+				<a href="/teams" class="nav-item">For Business</a>
+			</li>
+			<li >
+				<div class="dropdown dropdown-nav-edu">
+				  <button class="dropdown-toggle dropdown-toggle-nav" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				     Features	
+				  </button>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					<a class="dropdown-item" href="/features/labs_exercises">Real Hands-on Labs</a>
+					<a class="dropdown-item" href="/features/cloud_servers">Cloud Servers</a>
+					<a class="dropdown-item" href="/features/flash_cards">Flash Cards</a>
+				    <a class="dropdown-item" href="/features/course_scheduler">Course Scheduler</a>
+				    <a class="dropdown-item" href="/features/certification_training">Certification Training</a>
+				    <a class="dropdown-item" href="/features">More Features</a>
+				  </div>
+				</div>
+			</li>
+			
+			<li >
+			<li >
+				
+			</li>			
+			<li>
+				<a href="javascript:webAuth.authorize();" class="btn btn-la-outline navbar-btn btn-login">Log In</a>
+			</li>
+			<li >
+				<a href="/join/pricing" class="btn btn-la navbar-btn">Join Now</a>
+			</li>
+		</ul>
+		
+	</div> <!-- /.col-x -->
+</div> <!-- /.row -->
+
+<!-- close container for subnav to span full width -->
+</div>
+
+<!-- Courses sub nav dropdown -->
+<div class="row external-courses-sub-nav">
+	<div class="col-xs-12">
+		<div class="container external-courses-menu">
+			<div class="row external-courses-menu--row">
+                <div class="col-md-12">
+
+                    <ul class="nav nav-tabs nav-la nav-la-topics">
+                        <li>
+                            <a class="external-course-hex text-center" href="/cloud/courses">
+                                <img src="//assets.linuxacademy.com//templates/default/img/service/category/white/cloud.svg" class="hex-topic" width="64px" height="84px"><br>
+                                Cloud
+                            </a>
+                        </li>
+                        <li>
+                            <a class="external-course-hex text-center" href="/amazon-web-services/courses">
+                                <img src="//assets.linuxacademy.com//templates/default/img/service/category/white/aws.svg" class="hex-topic" width="64px" height="84px"><br>
+                                AWS
+                            </a>
+                        </li>
+                        <li>
+                            <a class="external-course-hex text-center" href="/azure/courses">
+                                <img src="//assets.linuxacademy.com//templates/default/img/service/category/white/azure.svg" class="hex-topic" width="64px" height="84px"><br>
+                                Azure
+                            </a>
+                        </li>
+                        <li>
+                            <a class="external-course-hex text-center" href="/google-cloud-platform/courses">
+                                <img src="/templates/default/img/service/category/white/google_compute.svg" class="hex-topic" width="64px" height="84px"><br>
+                                Google <br/>Cloud <br/>Platform
+                            </a>
+                        </li>
+                        <li>
+                            <a class="external-course-hex text-center" href="/linux/courses">
+                                <img src="//assets.linuxacademy.com//templates/default/img/service/category/white/linux.svg" class="hex-topic" width="64px" height="84px"><br>
+                                Linux
+                            </a>
+                        </li>
+                        <li>
+                            <a class="external-course-hex text-center" href="/security/courses">
+                                <img src="/templates/default/img/service/category/white/security.svg" class="hex-topic" width="64px" height="84px"><br>
+                                Security
+                            </a>
+                        </li>
+                        <li>
+                            <a class="external-course-hex text-center" href="/devops/courses">
+                                <img src="//assets.linuxacademy.com//templates/default/img/service/category/white/devops.svg" class="hex-topic" width="64px" height="84px"><br>
+                                DevOps
+                            </a>
+                        </li>
+                        <li>
+                            <a class="external-course-hex text-center" href="/containers/courses">
+                                <img src="//assets.linuxacademy.com//templates/default/img/service/category/white/containers.svg" class="hex-topic" width="64px" height="84px"><br>
+                                Containers
+                            </a>
+                        </li>
+                        <li>
+                            <a class="external-course-hex text-center" href="/openstack/courses">
+                                <img src="//assets.linuxacademy.com//templates/default/img/service/category/white/openstack.svg" class="hex-topic" width="64px" height="84px"><br>
+                                OpenStack
+                            </a>
+                        </li>
+                        <li>
+                            <a class="external-course-hex text-center" href="/bigdata/courses">
+                                <img src="//assets.linuxacademy.com//templates/default/img/service/category/white/bigdata.svg" class="hex-topic" width="64px" height="84px"><br>
+                                Big Data
+                            </a>
+                        </li>
+                    </ul>
+
+                </div> <!-- /.col-x -->
+                <!-- Popular Certification Courses -->
+                <div class="col-sm-12 external-popular-cert-section">
+                    <h4>Popular Certification Courses</h4>
+                    <div class="row">
+                        <!-- Loop over this div to populate -->
+    					                        <div class="col-md-4">
+                            <span>AWS</span>
+							                            	<a class="cert-course-link" href="/amazon-web-services/training/course/name/aws-certified-cloud-practitioner">AWS Certified Cloud Practitioner</a>
+							                            	<a class="cert-course-link" href="/amazon-web-services/training/course/name/aws-certified-solutions-architect-associate-level">Certified Solutions Architect - Associate</a>
+							                            	<a class="cert-course-link" href="/amazon-web-services/training/course/name/aws-certified-developer-associate-2018">Certified Developer - Associate</a>
+							                            	<a class="cert-course-link" href="/amazon-web-services/training/course/name/aws-certified-sysops-administrator-associate">Certified SysOps Administrator - Associate</a>
+							                            	<a class="cert-course-link" href="/amazon-web-services/training/course/name/aws-certified-devops-professional-new">Certified DevOps Engineer - Professional</a>
+							                            	<a class="cert-course-link" href="/amazon-web-services/training/course/name/aws-certified-solutions-architect-professional-level">Certified Solutions Architect - Professional</a>
+							                            	<a class="cert-course-link" href="/amazon-web-services/training/course/name/aws-certified-big-data">Certified Big Data Specialty</a>
+							                            	<a class="cert-course-link" href="/amazon-web-services/training/course/name/aws-certified-networking-specialty">Certified Advanced Networking Specialty</a>
+							                        </div>
+    					                        <div class="col-md-4">
+                            <span>Google Cloud Platform</span>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/google-cloud-platform-architect-essentials">Google Certified Professional - Cloud Architect - P  1</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/google-certified-professional-cloud-architect-part-2">Google Certified Professional - Cloud Architect - P 2</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/google-certified-professional-cloud-architect-part3">Google Certified Professional - Cloud Architect - P 3</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/google-cloud-data-engineer">Google Cloud Certified Professional Data Engineer</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/google-cloud-certified-associate-cloud-engineer">Google Cloud Certified Associate Cloud Engineer</a>
+							                        </div>
+    					                        <div class="col-md-4">
+                            <span>Red Hat</span>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/linux-academy-redhat-certified-systems-administrator-prep-course">Red Hat Certified Systems Administrator - RHCSA (EX200) Prep Course</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/linux-academy-redhat-certified-engineer-prep-course">Red Hat Certified Engineer - RHCE (EX300) Prep Course</a>
+							                            	<a class="cert-course-link" href="/openstack/training/course/name/rhel-rhce-openstack">Red Hat Certified Engineer in Red Hat OpenStack (EX310K) Prep Course </a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/linux-academy-red-hat-certified-specialist-in-ansible-automation">Red Hat Certified Specialist in Ansible Automation  (EX407) Prep Course</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/red-hat-certificate-of-expertise-containerized-application">Red Hat Certified Specialist in Containerized Application Development (EX276) Prep Course</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/red-hat-certificate-server-hardening-prep">Red Hat Certified Specialist in Server Hardening (EX413) Prep Course</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/linux-academy-redhat-certificate-of-expertise-in-platform-as-a-service-exam-ex280-prep-course">(OpenShift) Red Hat Certified Specialist in Platform-as-a-Service exam (EX280) Prep Course</a>
+							                        </div>
+    					                        <div class="col-md-4">
+                            <span>Linux Professional Institute (LPI)</span>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/lpi-linux-essentials">Linux Essentials - Exam 010 - Newly Refreshed!</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/lpic1-exam-101">Linux+ and LPIC-1: System Administrator - Exam 101</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/lpic1-exam-102">Linux+ and LPIC-1: System Administrator - Exam 102</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/lpic-2-linux-engineer-exam-201">LPIC-2: Linux Engineer Exam 201</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/lpic-level-2-exam-202">LPIC-2: Linux Engineer Exam 202</a>
+							                            	<a class="cert-course-link" href="/devops/training/course/name/lpi-devops-tools-engineer-certification">LPI DevOps Tools Engineer Certification</a>
+							                        </div>
+    					                        <div class="col-md-4">
+                            <span>Microsoft</span>
+							                            	<a class="cert-course-link" href="/azure/training/course/name/azure-70-533-implementing-microsoft-azure-infrastructure-solutions">Implementing Microsoft Azure Infrastructure Exam 70-533</a>
+							                            	<a class="cert-course-link" href="/azure/training/course/name/Architecting-Microsoft-Azure-Solutions-exam-70-534">Architecting Microsoft Azure Solutions Exam 70-534</a>
+							                        </div>
+    					                        <div class="col-md-4">
+                            <span>Containers</span>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/certified-kubernetes-administrator-preparation-course">Cloud Native (CKA) Certified Kubernetes Administrator</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/docker-certified-associate-prep-course">Docker Certified Associate Prep Course</a>
+							                        </div>
+    					                        <div class="col-md-4">
+                            <span>Linux Foundation</span>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/linux-foundation-certified-system-administrator-v3-18">Certified System Administrator</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/linux-foundation-certified-systems-engineer">Certified Systems Engineer</a>
+							                        </div>
+    					                        <div class="col-md-4">
+                            <span>OpenStack</span>
+							                            	<a class="cert-course-link" href="/openstack/training/course/name/rhel-rhce-openstack">Linux Academy Red Hat Certified Engineer in Red Hat OpenStack Prep Course (EX310K)</a>
+							                            	<a class="cert-course-link" href="/openstack/training/course/name/linux-academy-mirantis-ocm100">Linux Academy’s OpenStack Certified Mirantis 100 Prep (OCM100)</a>
+							                            	<a class="cert-course-link" href="/openstack/training/course/name/coa-openstack-foundation">OpenStack Foundation Certified OpenStack Administrator</a>
+							                        </div>
+    					                        <div class="col-md-4">
+                            <span>CompTIA</span>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/lpic1-exam-101">Linux+ LX0-103</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/lpic1-exam-102">Linux+  LX0-104</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/comptia-cloud-essentials">CompTIA Cloud Essentials Certification</a>
+							                        </div>
+    					                        <div class="col-md-4">
+                            <span>DevOps</span>
+							                            	<a class="cert-course-link" href="/devops/training/course/name/chefs-basic-fluency-badge">Basic Chef Fluency Badge</a>
+							                            	<a class="cert-course-link" href="/devops/training/course/name/chef-local-cookbook-development-badge">Chef Local Cookbook Development Badge</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/docker-certified-associate-prep-course">Docker Certified Associate Prep Course</a>
+							                            	<a class="cert-course-link" href="/linux/training/course/name/nagios-certified-professional">Nagios Certified Professional</a>
+							                            	<a class="cert-course-link" href="/devops/training/course/name/PPT-224-System-Administration-Using-Puppet">PPT-204: Puppet 204 - System Administration Using Puppet</a>
+							                            	<a class="cert-course-link" href="/devops/training/course/name/cloud-foundry-certified-developer">Cloud Foundry Certified Developer</a>
+							                            	<a class="cert-course-link" href="/devops/training/course/name/lpi-devops-tools-engineer-certification">LPI DevOps Tools Engineer Certification</a>
+							                            	<a class="cert-course-link" href="/devops/training/course/name/saltstack-certified-engineer">SaltStack Certified Engineer</a>
+							                        </div>
+    					                        <!-- end loop -->
+                    </div>
+                </div>
+                <!-- End Popular Cert Section -->
+            </div> <!-- /.row -->
+		</div>
+	</div>
+</div>
+
+<!-- Open container back up -->
+<div class="container">
+		  <link href="/lib/cache/edc6667e266fadc591342ced12f332db.css?ver=1537796874" rel="stylesheet" media="screen" />
+<div class="row">
+    <div class="container inner-promo">
+        <span class="promo-label">Extended</span>
+        <h1>Don’t Let The Cloud Leave You Behind. For a Limited Time Save $150.</h1>
+        <h3>No matter where you are in your career, train with Linux Academy and develop the in-demand skills businesses are looking for.</h3>
+        <h4>We do training differently. Just try it.</h4>
+        <a href="/join/pricing" class="btn">Join Now</a>
+        <div>
+            <span>Lock-in this price now. Promotion ends</span>
+            <span>Monday, September 24, 2018 at 11:59PM CDT.</span>
+        </div>
+    </div>
+    <div class="explore">
+        <div>Explore Our Site</div>
+        <i class="fa fa-fw fa-angle-down"></i>
+    </div>
+</div>
+
+<script src="/lib/cache/faac23c6991f2421c5b59499ae290f09.js?ver=1537796874"></script>
+</div>
+
+
+
+<!-- <div class="video-fullsc-container"> -->
+  <!-- <video loop poster="https://assets.linuxacademy.com/templates/default/assets/img/bg-header-hero-new.png" id="bg-vid-demo" class="video-fullsc">
+      <source src="//assets.linuxacademy.com/templates/default/assets/video/demo-bg-720p-vp8-1.0.webm" type="video/webm">
+      <source src="//assets.linuxacademy.com/templates/default/assets/video/demo-bg-720p-1.0.mp4" type="video/mp4">
+  </video> -->
+<!-- </div> --> <!-- /.video-fullsc-container -->
+
+</div>
+
+<link href="/lib/cache/3894fd401dbb9026767928d487fe137f.css?ver=1537796874" rel="stylesheet" media="screen" />
+<link href="/lib/cache/891edf67235c7b48329b2d0afe1e7c48.css?ver=1537796874" rel="stylesheet" media="screen" />
+<div id="external-carousel" data-env="production">
+    <div class="title">
+        <h2>Explore Our Brand New Content</h2>
+    </div>
+    <div class="carousel">
+        <div class="c-row top">
+            <ul></ul>
+        </div>
+        <div class="c-row bottom">
+            <ul></ul>
+        </div>
+    </div>
+    <div class="cta">
+        <a href="/join/pricing" class="btn btn-la">Start 7 Day Trial</a>
+    </div>
+</div>
+
+<script src="/lib/cache/a08e7dc1251489bbc5faeb028a6a8f45.js?ver=1537796874"></script>
+<!-- Stylesheet for animations -->
+<link rel="stylesheet" href="/templates/default/assets/css/animate.css">
+<style>
+/*Old Code  that I don't want but cannot get rid of just yet*/
+
+/*
+a.topic-hex {
+  max-width: 60px;
+  cursor:pointer;
+}
+a.topic-hex p {
+  font-size: 12px;
+}
+a.topic-hex h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+a.topic-hex-linux {
+  max-width: 110px;
+  margin:0 auto;
+}
+*/
+.spider_nav {
+  margin-bottom:75px;
+  padding: 75px 0;
+}
+.spider_nav a.topic-hex {
+  text-decoration: none;
+  display: block;
+  padding-bottom: 47px;
+}
+.spider_nav a.topic-hex h3 {
+  color: #1bb398;
+  margin: 20px 0 0;
+}
+.spider_nav a.topic-hex p {
+  margin-bottom: 0;
+}
+.spider_nav a.topic-hex:hover h3,
+.spider_nav a.topic-hex:hover p {
+  color: #29485b;
+  text-decoration: underline;
+}
+.spider_nav a.topic-hex img,
+.spider_nav a.topic-hex h3 {
+  transition: all ease-in-out .2s;
+}
+.spider_nav a.topic-hex:hover img,
+.spider_nav a.topic-hex:hover h3 {
+  -moz-transform: translate(0px, -5px);
+  -ms-transform: translate(0px, -5px);
+  -o-transform: translate(0px, -5px);
+  -webkit-transform: translate(0px, -5px);
+  transform: translate(0px, -5px);
+  opacity:1;
+}
+.spider_nav_col_1 {
+    position: relative;    
+}
+.spider_nav_col_2 {
+    position: relative;
+}
+.spider_nav_col_3 {
+    position: relative;
+}
+.spider_nav a.topic-hex {
+  text-align:center;
+  color : #29485b;
+}
+.spider_nav a.topic-hex h3 {
+  color : #29485b;
+  font-size: 12px;
+  line-height: 20px;
+}
+.gc-image-fix {
+  max-width: 90px;
+  margin:0 auto;
+}
+.spider_nav_col_2 a.topic-hex:nth-child(1) {
+  max-width: 120px;
+}
+/* iPhone 5 specific media query */
+@media (min-width: 320px) { 
+  .spider_nav_col_1 a.topic-hex{
+    max-width: calc(100% - 20px);
+    position: relative;
+  }
+  .spider_nav_col_2 a.topic-hex {
+    max-width: calc(100% - 20px);
+    position: relative; 
+  }
+  .spider_nav a.topic-hex h3 {
+    font-size:12px;
+    line-height: 16px;
+  }
+  .spider_nav_col_1 a.topic-hex{
+    margin:0 auto;
+  }
+  .spider_nav_col_2 {
+      margin-top:-20px;
+  }
+  .spider_nav_col_2 a.topic-hex {
+    margin: 0 auto;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(2) {
+    left: 0px;
+    margin-top: 24px;
+    max-width: calc(100% + 40px);
+    position: relative;
+    padding-bottom: 52px;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(3) {
+    margin-top:-13px;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(1) {
+    margin-top: -10px;
+    max-width: calc(100% - 20px);
+  }
+  .spider_nav_col_3 a.topic-hex {
+    max-width: calc(100% - 20px);
+    position: relative;
+    left: 10px;
+  }
+  .gc-image-fix {
+    max-width: 100%;
+  }
+}
+/* Custom breakpoint for larger than iPhone 5 mobile */
+@media (min-width: 330px) { 
+  .spider_nav_col_2 a.topic-hex:nth-child(3) {
+    margin-top:0;
+  }
+}
+/* Custom breakpoint for iPhone 6 mobile */
+@media (min-width: 360px) { 
+  .spider_nav_col_2 a.topic-hex:nth-child(2) {
+    padding-bottom: 40px;
+  }
+}
+/* Custom breakpoint for larger than iPhone 6 mobile */
+@media (min-width: 412px) { 
+  .spider_nav_col_2 a.topic-hex:nth-child(1) {
+    margin-top:0;
+    padding-top:6px;
+  }
+  .spider_nav_col_2 a.topic-hex {
+    padding-bottom: 48px;
+  }
+}
+/* Custom breakpoint for larger than iPhone 6 mobile */
+@media (min-width: 561px) { 
+  .spider_nav_col_2 a.topic-hex:nth-child(1) {
+    padding-top:0;
+    margin-top: -14px;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(2) {
+    margin-top: 28px;
+  }
+  .spider_nav_col_3 a.topic-hex:nth-child(2) {
+    padding-bottom: 49px;
+  }
+  .spider_nav_col_2 {
+    margin-top:0;
+  }
+}
+@media (min-width: 563px) { 
+  .spider_nav_col_2 a.topic-hex:nth-child(1) {
+    padding-bottom: 50px;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(2) {
+    padding-bottom: 36px;
+  }
+  .spider_nav_col_3 a.topic-hex:nth-child(2) {
+    padding-bottom: 48px;
+  }
+  .spider_nav a.topic-hex h3 {
+    font-size: 14px;
+  }
+  .spider_nav_col_2 a.topic-hex {
+    padding-bottom: 32px;
+  }
+}
+@media (min-width: 625px) { 
+  .spider_nav_col_2 a.topic-hex:nth-child(1) {
+    margin-top: 0;
+    padding-bottom: 52px;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(2) {
+    padding-bottom: 38px;
+  }
+}
+/* Media Query for Tablets*/
+@media (min-width: 768px) {
+  .spider_nav h1{
+      margin-bottom: 35px;
+  }
+  .spider_nav a.topic-hex h3 {
+    font-size:14px;
+  }
+  .spider_nav_col_1 {
+    margin-top: 13px; 
+    left:-70px;
+  }
+  .spider_nav_col_1 a.topic-hex {
+    left: 64px;
+    position: relative;
+    max-width: 90px;
+    padding-bottom: 0px;
+   }
+  .spider_nav_col_1 a.topic-hex:nth-child(1){
+    left: 86px;
+  }
+  .spider_nav_col_1 a.topic-hex:nth-child(2){
+    margin-top: 0px;
+  }
+ .spider_nav_col_1 a.topic-hex:nth-child(3){
+    left: 30px;
+    top: 50px;
+  }
+  .spider_nav_col_1 a.topic-hex:nth-child(4){
+    left: 200px;
+    top: -400px;
+    z-index: 2;
+  }
+  .spider_nav_col_2 {
+    margin-top: 33px; 
+  }
+  .spider_nav_col_2 a.topic-hex {
+    position: relative;
+    max-width: 90px;
+    padding-bottom: 0px;
+    margin:initial;
+   }
+  .spider_nav_col_2 a.topic-hex:nth-child(1){
+    left: 40px;
+    top:-8px;
+    padding-bottom: 0;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(2){
+    top: 80px;
+    max-width: 150px;
+    left: 20px;
+    margin-top: 0;
+    padding-bottom: initial;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(3){
+    left: -167px;
+    margin-top: 151px;
+  }
+  .spider_nav_col_3 a.topic-hex {
+    position: relative;
+    max-width: 90px;
+    padding-bottom: 0px;
+  }
+  .spider_nav_col_3 a.topic-hex:nth-child(1){
+    left: -14px;
+    top: -48px;
+  }
+  .spider_nav_col_3 a.topic-hex:nth-child(2){
+    left: 45px;
+    top: 133px;
+  }
+  .spider_nav_col_3 a.topic-hex:nth-child(3){
+    top: 122px;
+    left: -56px;
+  }
+  .bg-image-lines {
+    background-image:url('/templates/default/img/service/category/spider_nav_tablet_2018.svg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: 42px;
+    background-position-y: -40px;
+    padding-top: 30px;
+  }
+  .gc-image-fix {
+    max-width: 90px;
+    margin: 0 auto;
+  }
+}
+/* Media Query for desktop*/
+@media (min-width: 992px) {
+  .bg-image-lines h3 {
+    font-size:18px;
+  }
+  .spider_nav a.topic-hex h3 {
+    font-size:16px;
+  }
+  .spider_nav_col_1 {
+    margin-top: 130px; 
+  }
+  .spider_nav_col_1 a.topic-hex {
+    left: 100px;
+    position: relative;
+    max-width: 90px;
+    padding-bottom: 0px;
+   }
+  .spider_nav_col_1 a.topic-hex:nth-child(1){
+    left: 132px;
+    top:-36px;
+  }
+  .spider_nav_col_1 a.topic-hex:nth-child(2){
+    margin-top: -33px;
+    left: 52px;
+   }
+  .spider_nav_col_1 a.topic-hex:nth-child(3){
+    left: 70px;
+    margin-top: 0;
+  }
+  .spider_nav_col_1 a.topic-hex:nth-child(4){
+    left: 220px;
+    margin-top: -100px;
+  }
+  .spider_nav_col_2 {
+    margin-top: 7px; 
+  }
+  .spider_nav_col_2 a.topic-hex {
+    left: 100px;
+    position: relative;
+    max-width: 90px;
+    padding-bottom: 0px;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(1){
+    left: 165px;
+    top: 16px;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(2){
+    top: 120px;
+    left: 100px;
+    max-width: 150px;
+  }
+  .spider_nav_col_2 a.topic-hex:nth-child(3){
+    left: -58px;
+    top: 40px;
+  }
+  .spider_nav_col_3 {
+    margin-top: 100px; 
+  }
+  .spider_nav_col_3 a.topic-hex {
+    top: 0px;
+    left: 110px;
+    position: relative;
+    max-width: 90px;
+    padding-bottom: 0px;
+   }
+  .spider_nav_col_3 a.topic-hex:nth-child(1){
+    left: 141px;
+  }
+  .spider_nav_col_3 a.topic-hex:nth-child(2){
+    top: -25px;
+    left: 110px;
+  }
+  .spider_nav_col_3 a.topic-hex:nth-child(3){
+    top: 26px;
+    left: 76px;
+  }
+  .bg-image-lines {
+    background-image:url('/templates/default/img/service/category/spider_nav_2018.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    padding-top: 0px;
+  }
+}
+/* Media Query for larger screens */
+@media (min-width: 1200px) {
+  .special-container {
+    width: 970px;
+  }
+}
+</style>
+
+<div class="spider_nav">
+  <div class="container special-container">
+    <!-- Title Row -->
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 text-center">
+        <h1>Pick your hands-on training category</h1>
+        <p>Every member has access to over 2,000 hours of in-depth courses, labs, flash cards, and hands-on training.</p>
+      </div> 
+    </div> 
+    
+    <!-- Spider Nav -->
+    <div class="bg-image-lines col-xs-12 wow fadeIn" data-wow-offset="200">
+        <div class="row">
+
+            <!-- Left column -->
+            <div class="col-xs-4 spider_nav_col_1">
+
+                <a href="/amazon-web-services/courses" class="topic-hex wow fadeInUp" data-wow-delay=".3s" data-wow-offset="80">
+                  <h3>AWS</h3>
+                  <!-- <p><u>Browse</u> <i class="fa fa-angle-right"></i></p> -->
+                  <img src="//assets.linuxacademy.com/templates/default/img/service/category/amazon.svg" class="img-responsive" alt="Amazon Web Services Course">
+                </a>
+
+                <a href="/devops/courses" class="topic-hex wow fadeInUp" data-toggle="modal" data-wow-delay=".3s" data-wow-offset="80">
+                  <h3>DevOps</h3>
+                  <img src="//assets.linuxacademy.com/templates/default/img/service/category/devops.svg" class="img-responsive" alt="DevOps Course">
+                </a>
+
+                <a href="/openstack/courses" class="topic-hex wow fadeInUp" data-wow-delay=".3s" data-wow-offset="80">
+                  <h3>OpenStack</h3>
+                  <img max-width="120px" src="//assets.linuxacademy.com/templates/default/img/service/category/openstack.svg" class="img-responsive" alt="OpenStack Courses">
+                </a>
+
+                <a href="/security/courses" class="topic-hex wow fadeInUp" data-wow-delay=".3s" data-wow-offset="80">
+                  <h3>Security</h3>
+                  <img max-width="120px" src="/templates/default/img/service/category/security.svg" class="img-responsive" alt="Security Courses">
+                </a>
+            </div>
+
+            <!-- Middle Column -->
+            <div class="col-xs-4 spider_nav_col_2">
+                <a href="/google-cloud-platform/courses" class="topic-hex topic-hex-gc wow fadeInUp" data-wow-delay=".3s" data-wow-offset="80">
+                  <h3>Google Cloud Platform</h3>
+                  <img src="/templates/default/img/service/category/google_compute.svg" class="img-responsive gc-image-fix" alt="Google Cloud Platform Courses">
+                </a>
+
+                <a href="/cloud/courses" class="topic-hex wow fadeInUp" data-wow-delay=".3s" data-wow-offset="80">
+                  <img src="//assets.linuxacademy.com/templates/default/img/service/category/cloud_thick.svg" class="img-responsive" alt="Cloud Technology courses">
+                </a>
+
+                <a href="/bigdata/courses" class="topic-hex wow fadeInUp" data-wow-delay=".3s" data-wow-offset="80">
+                  <h3>Big Data</h3>
+                  <img src="//assets.linuxacademy.com/templates/default/img/service/category/bigdata.svg" class="img-responsive" alt="Big Data Courses">
+                </a>
+            </div>
+          
+            <!-- Right Column -->
+            <div class="col-xs-4 spider_nav_col_3">
+                <a href="/linux/courses" class="topic-hex wow fadeInUp" data-wow-delay=".3s" data-wow-offset="80">
+                  <h3>Linux</h3>
+                  <img src="//assets.linuxacademy.com/templates/default/img/service/category/linux.svg" class="img-responsive" alt="Linux Courses">
+                </a>
+
+                <a href="/containers/courses" class="topic-hex wow fadeInUp" data-wow-delay=".3s" data-wow-offset="80">
+                  <h3>Containers</h3>
+                  <img max-width="120px" src="//assets.linuxacademy.com/templates/default/img/service/category/containers.svg" class="img-responsive" alt="Containers Courses">
+                </a>
+
+
+                <a href="/azure/courses" class="topic-hex wow fadeInUp" data-wow-delay=".3s" data-wow-offset="80">
+                  <h3>Azure</h3>
+                  <img max-width="120px" src="//assets.linuxacademy.com/templates/default/img/service/category/azure.svg" class="img-responsive" alt="Azure Courses">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Wow JS for pageload transitions -->
+<script src="/templates/default/assets/js/wow.min.js"></script>
+<script>
+  $(document).ready(function() {
+
+    var screenWidth = $( window ).width();
+
+    toggleColumn(screenWidth);
+    
+    $( window ).resize(function() {
+      screenWidth = $( window ).width();
+      toggleColumn(screenWidth);
+    });
+
+  });
+
+  function toggleColumn(screenWidth) {
+    if (screenWidth < 504) {
+      $('.bg-image-lines').children('.col-xs-8').addClass('col-xs-offset-1').removeClass('col-xs-offset-2');
+    } else if (screenWidth > 504) {
+      $('.bg-image-lines').children('.col-xs-8').addClass('col-xs-offset-2').removeClass('col-xs-offset-1');
+    }
+  }
+
+  //Initialize wow.js
+  new WOW().init();
+</script>
+
+<hr class="color-bands">
+<div class="home-labs">
+  <div class="container" style="position: relative;">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 home-labs-dark">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <h1 class="red-text">REAL Hands-On Labs <i class="fa fa-flask"></i></h1>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <span>We deploy the real environment, you take the scenario-based labs on us. <br class="hidden-sm">Hands-On, from anywhere, at any time.</span>
+          </div>
+        </div>
+        <div class="row" style="margin-top:30px;">
+          <div class="col-xs-2 col-xs-offset-1">
+            <a href="/amazon-web-services/labs"><img src="/templates/default/assets/img/aws_icon_red.png" alt="AWS Hands-on Labs"></a>
+          </div>
+          <div class="col-xs-2">
+            <a href="/azure/labs"><img src="/templates/default/assets/img/azure_icon_red.png" alt="Azure Hands-on Labs"></a>
+          </div>
+          <div class="col-xs-2">
+            <a href="/devops/labs"><img src="/templates/default/assets/img/devops_icon_red.png" alt="DevOps Hands-on Labs"></a>
+          </div>
+          <div class="col-xs-2">
+            <a href="/linux/labs"><img style="padding-top:12px;" src="/templates/default/assets/img/linux_icon_red.png" alt="Linux Hands-on Labs"></a>
+          </div>
+          <div class="col-xs-2">
+            <a href="/openstack/labs"><img class="smaller" src="/templates/default/assets/img/openstack_icon_red.png" alt="OpenStack Hands-on Labs"></a>
+          </div>
+        </div>
+        <div class="row red-icon-title">
+          <div class="col-xs-2 col-xs-offset-1">
+            <span>AWS</span>
+          </div>
+          <div class="col-xs-2">
+            <span>Azure</span>
+          </div>
+          <div class="col-xs-2">
+            <span>DevOps</span>
+          </div>
+          <div class="col-xs-2">
+            <span>Linux</span>
+          </div>
+          <div class="col-xs-2">
+            <span>OpenStack</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-sm-12">
+        <a href="/join/pricing" class="btn btn-la btn-la-red">Try It for Free</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="home-tutorials">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-center">
+                <div class="row">
+                    <div class="col-xs-4 col-xs-offset-4">
+                        <img src="/templates/default/assets/img/icon-brain-server.png" alt="brain-server" class="section-top" />
+                    </div>
+                </div>
+                <h2 class="accent-color">Tutorials can't teach real engineering, so we built better training tools</h2>
+                <p class="home-tutorials-desc">Every member gets access to all of our advanced training tools and features.</p>
+            </div>
+        </div>
+        <div class="row lg-icons">
+            <div class="col-md-3 text-center">
+                <i class="fa fa-flask" aria-hidden="true"></i>
+                <h4 class="home-tutorials-text">Hands-on Labs</h4>
+                <p class="home-tutorials-desc">We deploy the real environments, you take the scenario based labs, on us!</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <h4 class="home-tutorials-text">Instructor Mentoring</h4>
+                <p class="home-tutorials-desc">Full-time instructors are happy to advise and answer questions.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <i class="fa fa-wrench" aria-hidden="true"></i>
+                <h4 class="home-tutorials-text">6 Cloud Servers</h4>
+                <p class="home-tutorials-desc">6 Cloud Servers dedicated to you. Spin them up as you need.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <i class="fa fa-certificate" aria-hidden="true"></i>
+                <h4 class="home-tutorials-text" >Certificates of Completion</h4>
+                <p class="home-tutorials-desc">Earn certificates as proof of your hard-earned skill and knowledge.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <a href="/features" class="btn btn-la-outline btn-la-outline-green">See All Features</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h2>Join the community</h2>
+        <p>Join other students who are training with Linux Academy courses and hands-on labs.</p>
+      </div> <!-- /.col-x -->
+    </div> <!-- /.row -->
+    <div class="row">
+
+      <div id="carousel-testimonials" class="carousel carousel-la carousel-no-photos slide">
+        <!-- Indicators -->
+         <ol class="carousel-indicators">
+          <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+          <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+          <li data-target="#carousel-testimonials" data-slide-to="3"></li>
+          <li data-target="#carousel-testimonials" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+        <div class="item active">
+            <div class="col-md-6">
+              <blockquote class="testimonial">
+
+                <p><strong>Got hired by AWS!</strong><br />
+                I really want to say thanks to everyone in the community and Linux Academy! The resources here and the testing definitely helped play a role during my interviews and I cannot say thank you enough.</p>
+                <footer>
+                  Curtis Rissi
+                </footer>
+              </blockquote>
+            </div> <!-- /.col-x -->
+
+            <div class="col-md-6">
+              <blockquote class="testimonial">
+                <p>I want to give a HUGE thank you to Linux Academy! Last month I was hired at a very well known company in downtown San Francisco as a Linux System Administrator. There is absolutely no way this could have happened without Linux Academy.</p>
+                <footer>
+                  Eric Gundersen
+                </footer>
+              </blockquote>
+            </div> <!-- /.col-x -->
+          </div> <!-- /.item -->
+          <div class="item">
+            <div class="col-md-6">
+              <blockquote class="testimonial">
+                <p>The courses contain a wealth of knowledge and the instructors have done a great job of making the material easy to understand.</p>
+                <footer>
+                  Frank Duncan
+                </footer>
+              </blockquote>
+            </div> <!-- /.col-x -->
+
+            <div class="col-md-6">
+              <blockquote class="testimonial">
+                <p>Even with roughly 15 years of Linux experience I'm still learning new things in the videos.</p>
+                <footer>
+                  Don V.
+                </footer>
+              </blockquote>
+            </div> <!-- /.col-x -->
+          </div> <!-- /.item -->
+          <div class="item">
+            <div class="col-md-6">
+              <blockquote class="testimonial">
+                <p>If I knew how to write songs I'd write an ode to the team at LinuxAcademy for all the help they've provided and the inspiration I've received from others in the LA community.</p>
+                <footer>
+                  Kelly F.
+                </footer>
+              </blockquote>
+            </div> <!-- /.col-x -->
+
+            <div class="col-md-6">
+              <blockquote class="testimonial">
+                <p>Just wanted to say thank you. If it were not for the Linux Academy sessions I took while in college, there is no way I would have graduated with a 3.9 GPA. All of my offensive security classes were Kali Linux based and I was lacking in the basics needed to perform the virtual hacking sessions. Again thank you very much.</p>
+                <footer>
+                  Donnie Clemons
+                </footer>
+              </blockquote>
+            </div> <!-- /.col-x -->
+          </div> <!-- /.item -->
+
+          <div class="item">
+            <div class="col-md-6">
+              <blockquote class="testimonial">
+                <p>Thanks to the Linux Academy course materials I passed my AWS SysOps Associate exam yesterday. The official 3 day classroom course that I also attended doesn't cover anywhere near everything you need to know and the Linux Academy course not only filled the gaps but was way better in the overlapping subject areas too.</p>
+                <footer>
+                  Simon Page
+                </footer>
+              </blockquote>
+            </div> <!-- /.col-x -->
+            <div class="col-md-6">
+              <blockquote class="testimonial">
+                <p>Top notch customer service from @linuxacademyCOM last night. Glad I persisted - platform is going to be excellent for growing my team.</p>
+                <footer>
+                  Warren Bickley
+                </footer>
+              </blockquote>
+            </div> <!-- /.col-x -->
+          </div> <!-- /.item -->
+
+          <div class="item">
+            <div class="col-md-6">
+              <blockquote class="testimonial">
+                <p>This has been the most fun I've had learning about technology.</p>
+                <footer>
+                  Daniel Arcement
+                </footer>
+              </blockquote>
+            </div> <!-- /.col-x -->
+            <div class="col-md-6">
+              <blockquote class="testimonial">
+                <p>With over 15 million videos watched, we have more customer success stories. <a href="https://linuxacademy.com/blog/category/linuxacademy-com/month-of-success/" target="_blank">Read more</a>.</p>
+              </blockquote>
+            </div> <!-- /.col-x -->
+          </div> <!-- /.item -->
+
+        </div> <!-- /.carousel-inner -->
+
+      </div> <!-- /.carousel -->
+
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</div> <!-- /.section -->
+</div>
+
+<div class="companies inverse">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <h2>The world’s finest technology companies train at Linux Academy</h2>
+     <!--   <p><a href="/teams">Learn about training for teams <i class="fa fa-fw fa-angle-right"></i></a></p> -->
+
+      </div> <!-- /.col-x -->
+    </div> <!-- /.row -->
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div id="carousel-companies" class="carousel carousel-la slide">
+          <!-- Indicators -->
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner text-center">
+            <div class="item active">
+              <ul class="list-unstyled list-logos">
+
+                <li class="logo-rackspace"><img src="//assets.linuxacademy.com/templates/default/assets/img/logo-rackspace.svg" alt="Rackspace" width="166px" height="36px"></li>
+                <li class="logo-mediatemple"><img src="//assets.linuxacademy.com/templates/default/assets/img/logo-mediatemple.svg" alt="MediaTemple" width="70px" height="27px"></li>
+                <li class="logo-linode"><img src="//assets.linuxacademy.com/templates/default/assets/img/logo-linode.svg" alt="Linode" width="129px" height="51px"></li>
+                <li class="logo-general-electric"><img src="/templates/default/assets/img/GE-logo.png" alt="GE" width="76px"></li>
+                <li class="logo-mailchimp"><img src="//assets.linuxacademy.com/templates/default/assets/img/logo-mailchimp.svg" alt="MailChimp" width="165px" height="40px"></li>
+                <li class="logo-2ndwatch"><img src="//assets.linuxacademy.com/templates/default/assets/img/logo-2ndwatch.png" alt="2nd Watch" width="103px" height="38px"></li>
+
+                <li class="logo-audi"><img src="/templates/default/assets/img/Audi-logo.png" alt="Audi" width="90px"></li>
+                <li class="logo-dell"><img src="/templates/default/assets/img/Dell-logo.png" alt="Dell" width="180px"></li>
+                <li class="logo-apple"><img src="/templates/default/assets/img/Apple-logo.png" alt="Apple" width="40px"></li>
+                <li class="logo-gopro"><img src="/templates/default/assets/img/GoPro-logo.png" alt="GoPro" width="150px"></li>
+                <li class="logo-motorola"><img src="/templates/default/assets/img/Motorola-logo.png" alt="Motorola" width="90px"></li>
+                <li class="logo-oracle"><img src="/templates/default/assets/img/Oracle-logo.png" alt="Oracle" width="130px"></li>
+                <li class="logo-homedepot"><img src="/templates/default/assets/img/HomeDepot-logo.png" alt="Home Depot" width="60px"></li>
+
+                <li class="logo-tiffany"><img src="/templates/default/assets/img/Tiffany-logo.png" alt="Tiffany & Co." width="150px"></li>
+                <li class="logo-cisco"><img src="/templates/default/assets/img/Cisco-logo.png" alt="Cisco" width="100px"></li>
+                <li class="logo-ford"><img src="/templates/default/assets/img/Ford-logo.png" alt="Ford" width="110px"></li>
+                <li class="logo-tmobile"><img src="/templates/default/assets/img/t-mobile-logo.png" alt="T-Mobile" width="140px"></li>
+                <li class="logo-humana"><img src="/templates/default/assets/img/Humana-logo.png" alt="Humana" width=120px></li>
+                <li class="logo-gm"><img src="/templates/default/assets/img/GM-logo.png" alt="GM" width="60px"></li>
+
+				<li class="logo-retailmenot"><img src="/templates/default/assets/img/Retailmenot-logo.png" alt="Retailmenot" width="130px"></li>
+                <li class="logo-tyson"><img src="/templates/default/assets/img/Tyson-logo.png" alt="Tyson" width="70px"></li>
+                <li class="logo-bankofamerica"><img src="/templates/default/assets/img/Bank-of-America-logo.png" alt="Bank of America" width="190px"></li>
+                <li class="logo-allstate"><img src="/templates/default/assets/img/Allstate-logo.png" alt="Allstate" width="150px"></li>
+              </ul>
+            </div> <!-- /.item -->
+          </div> <!-- /.carousel-inner -->
+
+        </div> <!-- /.carousel -->
+
+      </div> <!-- /.col-x -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</div> <!-- /.section -->
+
+<div class="cta-bottom inverse">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				
+				<h2 style="font-size: 3.5em;"></i>Looking For Team Training?</h2>
+				<p><a href="/teams" class="btn btn-la btn-lg">Learn More<i class="fa fa-fw fa-angle-right"></i></a></p>
+				
+			</div> <!-- /.col-x -->
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+</div> <!-- /.section -->
+<div id="videoModal" class="modal modal-la modal-la-video" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-fsc">
+    <div class="modal-content">
+      <button type="button" class="btn btn-la-danger btn-close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+      <div id="video-wrapper" class="video-wrapper">
+        <div id="modalplayer"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal HTML -->
+<!-- <div id="MailChimpModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">New things at Linux Academy!</h4>
+            </div>
+            <form action="//H2iSolutions.us1.list-manage.com/subscribe/post?u=42c957f2840c328519f120769&amp;id=71d6d92866" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="modal-body">
+              <p>Amazing new content coming soon. Fill out the form below and be notified as soon as it's released!</p>
+              <!-- Begin MailChimp Signup Form -->
+              <!-- <div id="mc_embed_signup">
+                  <div id="mc_embed_signup_scroll">
+                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                    <div class="mc-field-group">
+                      <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div class="mc-field-group">
+                      <label for="mce-FNAME">First Name </label>
+                      <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                    </div>
+                    <div class="mc-field-group">
+                      <label for="mce-LNAME">Last Name </label>
+                      <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                    </div>
+                    <div class="mc-field-group">
+                      <label for="mce-MMERGE3">What course would you like to see? </label>
+                      <input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_42c957f2840c328519f120769_71d6d92866" tabindex="-1" value=""></div>
+                  </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary">
+            </div>
+            </form>
+        </div>
+    </div>
+</div> -->
+<!-- <script src="/lib/cache/ec5245e1a9884021ecee1b66689bcd73.js?ver=1537796874"></script> -->
+<!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script> -->
+<script type="text/javascript">
+  // include all javascript below only if .header-video-alt is in use
+  // Youtube
+  //----------------------
+  // This code loads the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+
+  tag.src = "//www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // This function creates an <iframe> (and YouTube player)
+  // after the API code downloads.
+  var player;
+  function onYouTubeIframeAPIReady() {
+    modalplayer = new YT.Player('modalplayer', {
+      height: '390',
+      width: '640',
+      videoId: 'vNkoU6aqx2k',
+      playerVars: {
+        // 'modestbranding': 1,
+        'showinfo': 0,
+        'rel': 0,
+        'color': 'white'
+        // 'controls': 0
+      }
+    });
+  }
+
+  $(document).ready(function() {
+
+    // toggle playback when modal is done opening
+    $('#videoModal').on('shown.bs.modal', function (e) {
+      modalplayer.playVideo();
+    })
+
+    // toggle playback when modal begins hiding
+    $('#videoModal').on('hide.bs.modal', function (e) {
+      modalplayer.pauseVideo();
+    })
+
+      $.ajax({url: '/library/index/length', dataType: 'json'}).success(function(data){
+                $('#days').html(data.time.days);
+                $('#hours').html(data.time.hours);
+
+        });
+
+
+        $.ajax({url: '/library/index/count/type/module', dataType: 'json'}).success(function(data){
+                $('#module_count').html(data);
+
+        });
+
+
+        $.ajax({url: '/library/index/count/type/livelab', dataType: 'json'}).success(function(data){
+                $('#lab_count').html(data);
+
+        });
+
+
+  });
+
+
+
+
+  //Mail Chimp Form
+  (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+</script>
+
+<div class="modal modal fade" id="errorModal" aria-hidden="false" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close" data-dismiss="modal">×</button>
+                <label>We're sorry, there was an error logging in.</label>
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:webAuth.authorize();" type="button" class="btn btn-la">Try again</a>
+                <a href="https://support.linuxacademy.com/hc/en-us/requests/new" type="button" class="btn btn-la-major">Contact support</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+$('document').ready(function(){
+
+	// buttons and event listeners
+	var loginBtn = $('.btn-login');
+	var logoutBtn = $('#btn-logout');
+
+	loginBtn.click(function(e) {
+		e.preventDefault();
+		webAuth.authorize({});
+	});
+	logoutBtn.click(logout);
+	
+	if(window.location.hash != ""){
+		if(window.location.hash.indexOf('error') != -1){
+			window.location = "/cp/login/error" + window.location.hash;
+		} else {
+			handleAuthentication(function(authResult){
+				// show spinner
+				coinActive();
+
+				// awaiting product details
+				validateToken(authResult.accessToken, function(data){
+					coinComplete();
+					
+					if (data.redirect) {
+						window.location = data.redirect;
+					} else {
+						$("#errorModal").modal();
+					}
+				});
+			});
+		}
+	}
+});
+
+</script>
+
+		    <div class="footer">
+    
+        <div class="container">
+            
+            <div class="row footer-nav">
+                
+                <div class="col-sm-4">
+                    <a href="/" class="logo"><img src="/templates/default/assets/img/LinuxAcademy-logo-dk.svg" alt="Linux Academy" width="214px" height="35px"></a>
+                </div> <!-- /.col-x -->
+                
+                <ul class="list-unstyled list-footer">
+                        <div class="col-sm-2">
+                            <li><a href="/features">Features</a></li>
+                            <li><a href="/teams">For Teams</a></li>
+                            <li><a href="/library">Library</a></li>
+                            <li><a href="/howtoguides">How To Guides</a></li>
+                        </div> <!-- /.col-x -->
+                        <div class="col-sm-2">
+                        
+                            <li><a href="https://linuxacademy.com/blog/">Blog</a></li>
+                            <li><a href="/careers" class="nav-item">Careers</a></li>
+                            <li><a href="/community">Community</a></li>
+                            <li><a href="http://www.buildyourownlinux.com/">Build Your Own Linux</a></li>
+                       
+                        </div> <!-- /.col-x -->
+                        <div class="col-sm-2">
+                            <li><a href="http://explore.org/live-cams/player/live-penguin-cam-2" target="_blank">Penguin Cam</a></li>
+                            <li><a href="/about" class="nav-item">About</a></li>
+                            <li><a href="https://linuxacademy.com/join/tos/">Terms of Service</a></li>
+                            <li><a href="https://linuxacademy.com/join/privacy/">Privacy Policy</a></li>
+                        </div> <!-- /.col-x -->
+                        <div class="col-sm-2 col-btns">
+                            <li><a href="/cp/login" class="btn btn-la-outline">Log In</a></li>
+                            <li><a href="/join/pricing" class="btn btn-la">Join Now</a></li>
+                        </div> <!-- /.col-x -->
+                </ul> <!-- /nav list -->
+                
+            </div> <!-- /.row -->
+            
+            <hr>
+            
+            <div class="row legal">
+                <div class="col-xs-12">
+                    <p>&copy; Linux Academy. All rights reserved.</p>
+                    <p>Pinehead&reg; and the Linux Academy logo® is the registered trademark of Linux Academy in the U.S. and other countries.</p>
+                    <p>Linux&reg; is the registered trademark of Linus Torvalds in the U.S. and other countries.</p>
+                </div> <!-- /.col-x -->
+            </div> <!-- /.row -->
+        
+        </div> <!-- /.container -->
+    </div> <!-- /.footer -->
+		<script src="/lib/cache/bf3bae2cdaede44a4d573035bff796e8_fb32fedafa452a5f0c7cdfe806e39cb3_c5fcd81a7e2d4f93d57b03cc96dfc1a5_0e91c2903715c2a55851608c02d1ff8a_.js?ver=1537796874"></script>
+<!-- Olark -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('8636-122-10-6535');/*]]>*/</script><noscript>powered by<a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- Override Olark button z-index style so that button doesnt cover fullscreen video controls in Chrome -->
+<style>
+    .olark-launch-button {z-index: 10000 !important;}
+</style>
+<!-- End Olark -->
+
+<!-- Facebook -->
+<script>
+    (function() {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+        }
+        _fbq.push(['addPixelId', '1541523966111627']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1541523966111627&amp;ev=PixelInitialized" /></noscript>
+<!-- End Facebook -->
+
+<!-- Twitter -->
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">
+twttr.conversion.trackPid('l6497', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l6497&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l6497&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /></noscript>
+<!-- End Twitter -->
+
+<!-- Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-88499456-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+<!-- Twitter universal website tag code -->
+<script>
+    !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+    },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+    a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    twq('init','nvysc');
+    twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+
+<!-- Google AdSense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-1107189565632108",
+        enable_page_level_ads: true
+    });
+</script>
+<!-- End Google AdSense -->
+
+<!-- Intercom -->
+<script>
+    (function() {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === "function") {
+            ic('reattach_activator');
+            ic('update', {
+                app_id: "c3zuyhmd"
+            });
+        } else {
+            var d = document;
+            var i = function() {
+                i.c(arguments)
+            };
+            i.q = [];
+            i.c = function(args) {
+                i.q.push(args)
+            };
+            w.Intercom = i;
+
+            function l() {
+                var s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://widget.intercom.io/widget/c3zuyhmd';
+                var x = d.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })();
+</script>
+<!-- End Intercom -->    </body>
+</html>
